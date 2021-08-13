@@ -1,0 +1,277 @@
+body{
+	background:#E5E5E5;
+}
+.heading__btn-non{
+	display: none;
+}
+.header {
+	background: #253b80 none repeat scroll 0 0;
+
+}
+.header__items{
+	text-align: center;
+	color:#fff;
+	display: flex;
+	align-items: center;
+	
+	
+}
+.heading__content-btn{
+	text-align: center;
+	height: 38px;
+	
+	padding: 1.2em 1em calc(0.3em + 3px);
+  border-radius:  20px 0 0 0;
+  background: #253b80 none repeat scroll 0 0;
+  transition: 0.2s;
+}
+.heading__content-title{
+	padding-right: 11%;
+	text-align: center;
+	width: 100%;
+}
+.logo{
+	
+height: 120px;
+width: 120px;
+}
+.container{
+	width: 100%;
+	max-width: 1146px;  
+	margin:0 auto; 
+}
+.heading{
+	padding-top: 20px;
+	
+		
+	
+}
+.heading__content{
+	display: flex;
+	align-items: center;
+	border-radius: 20px 20px 0 0;
+	background: #F5F5F5;	
+	
+}
+.heading__title{
+	/*margin-left: 21%;*/
+	color: grey-8
+rgba(89, 89, 89, 1);
+}	
+.heading__section{
+display: block;
+}
+.heading__btn{
+	
+	align-items: center;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 700;
+  color: white;
+ 
+ 
+}
+.content{
+		background:#FFFFFF;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		
+}
+
+.content__text{
+	border:none;
+	text-align: center;
+  height: 25px;
+  width: 25px;
+	background: white;
+	color: #000;
+}
+.content__subtitle{
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.vector{
+	height: 5px;
+	background: url(..//img/Vector.svg) no-repeat;
+  background-size: cover;
+}
+.group__btn {
+	border-radius:  20px 0px 0px 20px;
+  background-color: #179bd7 ;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.dropdown__btn {
+	border-radius:  0px 20px 20px 0px;
+  
+}
+
+.dropdown {
+	position: absolute;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.group__btn:hover, .dropdown:hover .dropdown__btn {
+  background-color: #253b80 ;
+}
+.group{
+	padding-top: 15px;
+}
+.week{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.section{
+	margin-top: 10px;
+	
+}
+.section__title{
+	text-align: center;
+	background: #F5F5F5;
+	height: 35px;
+	margin-bottom: 10px;
+
+	align-items: center;
+	
+}
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 15px solid #F2F8F8;
+	border-top: 5px solid #F2F8F8;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #F2F8F8;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+}
+.table td {
+	padding: 5px;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+}
+.footer{
+	height: 150px;
+	background:#E5E5E5;
+}
+
+@media only screen and (max-width: 1200px){
+	.container{
+		width: 100%;
+		max-width: 1000px;  
+		margin:0 auto; 
+	}
+ }
+
+@media only screen and  (max-width: 992px){
+	.header__title{
+		font-size: 24px;
+	}
+	.heading__btn{
+		font-size: 15px;
+	}
+	.heading__title{
+		font-size: 20px;
+	}
+	.heading__content-title{
+		padding-right: 13%;
+	
+ }
+ .content__subtitle{
+	 font-size: 15px;
+ }
+
+@media only screen and  (max-width: 768px){
+	.logo{
+		width: 90px;
+		height: 90px;
+	}
+	.header__title{
+		font-size: 22px;
+	}
+	
+	.heading__title{
+		font-size: 18px;
+	}
+	.heading__content-title{
+		padding-right: 14%;
+	
+ }
+ .group__btn{
+	 font-size: 15px;
+ }
+ .table{
+	 font-size: 14px;
+ }
+ }
+
+@media only screen and  (max-width: 480px){
+	.logo{
+		width: 70px;
+		height: 70px;
+	}
+	.header__title{
+		font-size: 18px;
+	}
+	.heading__title{
+		font-size: 15px;
+	}
+	 .group__btn{
+	 font-size: 11px;
+ }
+ .heading__content-btn{
+	 text-align: center;
+	 padding: 3px 11px 3px 5px;
+ }
+ .heading__btn-non{
+	 display:grid;
+	 text-decoration: none;
+	 color:#F5F5F5;
+	 
+ }
+ .heading__btn{
+	 display: none;
+ }
+ .content__subtitle{
+	 font-size: 13px;
+ }
+ .table{
+	 font-size: 9.5px;
+ }
+
+ }
+@media only screen and  (max-width: 320px){
+	 .table{
+	 font-size: 7px;
+ }
+ }
